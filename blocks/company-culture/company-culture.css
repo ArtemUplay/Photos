@@ -17,4 +17,12 @@
 .company-culture__icons {
   display: flex;
   gap: 24px;
+  margin: 0px 0px 48px 0px;
 }
+
+/* @media screen and (max-width: 1200px){
+  .company-culture {
+    grid-row: 1;
+    grid-column: 2/4;
+  }
+} */

@@ -2,3 +2,10 @@
   background-color: #A6806B;
   min-width: 165px;
 }
+
+@media screen and (max-width: 1200px){
+  .brown-block {
+    grid-row: 3/4;
+    grid-column: 3/4;
+  }
+}

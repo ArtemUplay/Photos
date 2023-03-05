@@ -11,3 +11,9 @@
   line-height: 22px;
   color: #F2F2F2;
 }
+
+@media screen and (max-width: 1200px){
+  .about__text {
+    margin: 60px 48px 0px 65px;
+  }
+}
