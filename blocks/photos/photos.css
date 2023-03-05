@@ -1,3 +1,8 @@
 .photos {
+  max-width: 1536px;
   display: grid;
+  /* grid-template-columns: minmax(auto, 458px) repeat(4, 1fr); */
+  grid-template-columns: repeat(auto-fit, minmax(auto, 1fr));,
+  grid-template-rows: minmax(auto, 288px) minmax(auto, 188px) minmax(auto, 247px);
+  font-size: 0;
 }

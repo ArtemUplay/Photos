@@ -1,0 +1,13 @@
+.about{
+  background-color: #828282;
+  grid-row: 3;
+  grid-column: 1/2;
+}
+
+.about__text {
+  margin: 95px 48px 0px 65px;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 22px;
+  color: #F2F2F2;
+}

@@ -8,13 +8,119 @@
   <link rel="stylesheet" href="css/index.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;600&display=swap" rel="stylesheet">
   <title>Photos</title>
 </head>
 
 <body class="root">
   <section class="photos">
+    <div class="photos__company-culture company-culture">
+      <h1 class="company-culture__title">COMPANY CULTURE</h1>
+      <div class="company-culture__icons">
+        <a href="#" class="company-culture__link">
+          <img src="images/instagram.svg" alt="Инстаграм" class="company-culture">
+        </a>
+        <a href="#" class="company-culture__link">
+          <img src="images/phone.svg" alt="Телефон" class="company-culture">
+        </a>
+        <a href="#" class="company-culture__link">
+          <img src="images/mail.svg" alt="Почта" class="company-culture">
+        </a>
+      </div>
+    </div>
+    <picture class="photos__girl-in-hat girl-in-hat">
+      <source 
+        type="image/avif" 
+        srcset="images/girl-in-hat.avif,
+          images/girl-in-hat2x.avif 2x">
+      <source 
+        type="image/webp" 
+        srcset="images/girl-in-hat.webp,
+          images/girl-in-hat2x.webp 2x">
+      <img src="images/girl-in-hat.jpg" 
+        srcset="images/girl-in-hat2x.jpg 2x" 
+        alt="Девушка в шляпе"
+        >
+    </picture>
+    <picture class="photos__girl-with-wall girl-with-wall">
+      <source 
+        type="image/avif" 
+        srcset="images/girl-with-blue-wall.avif,
+          images/girl-with-blue-wall2x.avif 2x">
+      <source 
+        type="image/webp" 
+        srcset="images/girl-with-blue-wall.webp,
+          images/girl-with-blue-wall2x.webp 2x">
+      <img src="images/girl-with-blue-wall.jpg" 
+        srcset="images/girl-with-blue-wall2x.jpg 2x"
+        alt="Девушка с синей стеной"
+        >
+    </picture>
+    <picture class="photos__girl-with-bouquet girl-with-bouquet">
+      <source 
+        type="image/avif" 
+        srcset="images/girl-with-bouquet.avif,
+          images/girl-with-bouquet2x.avif 2x">
+      <source 
+        type="image/webp" 
+        srcset="images/girl-with-bouquet.webp,
+          images/girl-with-bouquet2x.webp 2x">
+      <img src="images/girl-with-bouquet.jpg" 
+        srcset="images/girl-with-bouquet2x.jpg 2x"
+        alt="Девушка с букетом в руке"
+        >
+    </picture>
+    <div class="photos__about about">
+      <p class="about__text">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Massa ultricies aliquam egestas amet mi aliquam. Eu, vel massa elementum nulla.
+      </p>
+    </div>
+    <picture class="photos__coffee-cap coffee-cap">
+      <source 
+        type="image/avif" 
+        srcset="images/coffee-cap.avif,
+          images/coffee-cap2x.avif 2x">
+      <source 
+        type="image/webp" 
+        srcset="images/coffee-cap.webp,
+          images/coffee-cap2x.webp 2x">
+      <img src="images/coffee-cap.jpg" 
+        srcset="images/coffee-cap2x.jpg 2x"
+        alt="Чашка кофе"
+        >
+    </picture>
+    <div class="photos__brown-block brown-block">
 
+    </div>
+    <picture class="photos__empty-room empty-room">
+      <source 
+        type="image/avif" 
+        srcset="images/empty-room.avif,
+          images/empty-room2x.avif 2x">
+      <source 
+        type="image/webp" 
+        srcset="images/empty-room.webp,
+          images/empty-room2x.webp 2x">
+      <img src="images/empty-room.jpg" 
+        srcset="images/empty-room2x.jpg 2x"
+        alt="Пустая комната"
+        >
+    </picture>
+    <div class="photos__red-block red-block"></div>
+    <picture>
+      <source 
+        type="image/avif" 
+        srcset="images/man.avif,
+           images/man2x.avif 2x">
+      <source 
+        type="image/webp" 
+        srcset="images/man.webp,
+          images/man2x.webp 2x">
+      <img src="images/man.jpg" 
+        srcset="images/man2x.jpg 2x"
+        alt="Мужчина"
+        class="photos__man man">
+    </picture>
   </section>
 </body>
 
