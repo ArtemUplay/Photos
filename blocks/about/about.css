@@ -13,7 +13,27 @@
 }
 
 @media screen and (max-width: 1200px){
+  .about{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
   .about__text {
-    margin: 60px 48px 0px 65px;
+    padding: 20px;
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 992px){
+  .about{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .about__text {
+    padding: 20px;
+    margin: 0;
   }
 }

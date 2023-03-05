@@ -8,3 +8,12 @@
     grid-column: 1/2;
   }
 }
+
+@media screen and (max-width: 992px){
+  .girl-with-bouquet {
+    grid-column: 3/5;
+  }
+
+  .girl-with-bouquet img{
+  }
+}

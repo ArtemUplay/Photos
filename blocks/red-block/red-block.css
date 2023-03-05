@@ -13,3 +13,10 @@
     grid-row: 4/-1;
   }
 }
+
+@media screen and (max-width: 992px){
+  .red-block {
+    grid-column: 1/3;
+    grid-row: 5/6;
+  }
+}

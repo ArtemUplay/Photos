@@ -9,3 +9,11 @@
     grid-column: 3/4;
   }
 }
+
+@media screen and (max-width: 992px){
+  .brown-block {
+    grid-row: 3/4;
+    grid-column: 3/5;
+    
+  }
+}
