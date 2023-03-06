@@ -24,3 +24,10 @@
    max-height: 300px;
   }
 }
+
+@media screen and (max-width: 320px){
+  .coffee-cap {
+    grid-row: 5;
+    grid-column: 1;
+  }
+}

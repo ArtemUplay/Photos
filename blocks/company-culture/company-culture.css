@@ -39,7 +39,7 @@
   }
   
   .company-culture__title {
-    font-size: 28px;
+    font-size: 35px;
     margin: 30px 0px 60px;
   }
 
@@ -48,12 +48,11 @@
     gap: 24px;
     margin: 0px 0px 40px 0px;
   }
+}
 
-  .company-culture__link {
-    display: block;
-  }
-
-  .company-culture__image {
-    
+@media screen and (max-width: 320px){
+  .company-culture {
+    grid-column: 1;
+    grid-row: 1;
   }
 }

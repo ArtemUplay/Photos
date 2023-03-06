@@ -26,12 +26,17 @@
   .girl-with-wall {
     grid-row: 6/7;
     grid-column: 2/3;
-
   }
 
   .girl-with-wall img {
     min-width: 0;
-    object-fit: cover;
+  }
+}
+
+@media screen and (max-width: 320px){
+  .girl-with-wall {
+    grid-row: 9;
+    grid-column: 1;
   }
 }
 

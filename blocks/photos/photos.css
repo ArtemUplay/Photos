@@ -30,3 +30,9 @@ img {
     grid-template-columns: repeat(2, auto);
   }
 }
+
+@media screen and (max-width: 320px){
+  .photos {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

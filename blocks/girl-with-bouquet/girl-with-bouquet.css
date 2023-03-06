@@ -13,9 +13,6 @@
   .girl-with-bouquet {
     grid-column: 3/5;
   }
-
-  .girl-with-bouquet img{
-  }
 }
 
 @media screen and (max-width: 768px){
@@ -23,7 +20,11 @@
     grid-column: 2/3;
     grid-row: 3/4;
   }
+}
 
-  .girl-with-bouquet img{
+@media screen and (max-width: 320px){
+  .girl-with-bouquet {
+    grid-column: 1;
+    grid-row: 4;
   }
 }

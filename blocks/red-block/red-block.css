@@ -21,9 +21,9 @@
   }
 }
 
-/* @media screen and (max-width: 768px){
+@media screen and (max-width: 320px){
   .red-block {
-    grid-column: 1/5;
-    grid-row: 5/6;
+    grid-column: 1;
+    grid-row: 8;
   }
-} */
+}
