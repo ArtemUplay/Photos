@@ -9,9 +9,24 @@
   font-size: 0;
 }
 
+picture {
+  display: block;
+}
+
+img {
+  display: block;
+  object-fit: cover;
+}
+
 @media screen and (max-width: 1200px){
   .photos {
     grid-template-rows: repeat(3, minmax(auto, max-content));
     /* grid-template-rows: repeat(auto-fit, auto) */
+  }
+}
+
+@media screen and (max-width: 768px){
+  .photos {
+    grid-template-columns: repeat(2, auto);
   }
 }

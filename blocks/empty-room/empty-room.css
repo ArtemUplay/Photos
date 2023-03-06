@@ -22,3 +22,12 @@
     grid-row: 4/5;
   }
 }
+
+@media screen and (max-width: 768px){
+  .empty-room {
+    max-height: auto;
+    min-width: 0;
+    grid-column: 1/2;
+    grid-row: 6/7;
+  }
+}

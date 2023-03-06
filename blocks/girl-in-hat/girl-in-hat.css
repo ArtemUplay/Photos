@@ -18,7 +18,17 @@
   }
 
   .girl-in-hat img {
-    width: 300px;
     object-fit: cover;
+  }
+}
+
+@media screen and (max-width: 768px){
+  .girl-in-hat {
+    grid-row: 3;
+    grid-column: 1/2;
+  }
+
+  .girl-in-hat img {
+    min-width: 0;
   }
 }

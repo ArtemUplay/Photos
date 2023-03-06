@@ -31,3 +31,29 @@
     margin: 60px 0px 120px 0px;
   }
 }
+
+@media screen and (max-width: 768px){
+  .company-culture {
+    /* grid-row: 1/2; */
+    grid-column: 1/2;
+  }
+  
+  .company-culture__title {
+    font-size: 28px;
+    margin: 30px 0px 60px;
+  }
+
+  .company-culture__icons {
+    display: flex;
+    gap: 24px;
+    margin: 0px 0px 40px 0px;
+  }
+
+  .company-culture__link {
+    display: block;
+  }
+
+  .company-culture__image {
+    
+  }
+}
