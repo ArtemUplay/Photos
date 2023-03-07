@@ -1,9 +1,6 @@
-* {
-  margin: 0;
-  padding: 0;
-}
-
 .root {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
   font-family: Inter, sans-serif;
   margin: 0;
   display: flex;

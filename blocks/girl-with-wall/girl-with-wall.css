@@ -3,7 +3,8 @@
   grid-column: 4/5;
 }
 
-.girl-with-wall img {
+.girl-with-wall__image {
+  display: block;
   min-width: 226px;
   width: 100%;
   height: 100%;
@@ -17,7 +18,7 @@
 
   }
 
-  .girl-with-wall img {
+  .girl-with-wall__image {
     min-width: 0;
   }
 }
@@ -26,10 +27,6 @@
   .girl-with-wall {
     grid-row: 6/7;
     grid-column: 2/3;
-  }
-
-  .girl-with-wall img {
-    min-width: 0;
   }
 }
 

@@ -10,7 +10,7 @@
 @media screen and (max-width: 1200px){
   .red-block {
     grid-column: 2/3;
-    grid-row: 4/-1;
+    grid-row: 4/5;
   }
 }
 

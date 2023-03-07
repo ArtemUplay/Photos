@@ -1,6 +1,8 @@
-.man img {
+.man__image {
+  display: block;
   width: 100%;
   height: 100%;
+  object-fit: cover;
 }
 
 @media screen and (max-width: 1200px){

@@ -2,21 +2,15 @@
   grid-row: 2/4;
 }
 
-.empty-room img {
+.empty-room__image {
   display: block;
   width: 100%;
   height: 100%;
-}
-
-@media screen and (max-width: 1200px){
-  .empty-room {
-    max-height: 440px;
-  }
+  object-fit: cover;
 }
 
 @media screen and (max-width: 992px){
   .empty-room {
-    max-height: none;
     min-width: 190px;
     grid-column: 2/3;
     grid-row: 4/5;
@@ -25,7 +19,6 @@
 
 @media screen and (max-width: 768px){
   .empty-room {
-    max-height: auto;
     min-width: 0;
     grid-column: 1/2;
     grid-row: 6/7;

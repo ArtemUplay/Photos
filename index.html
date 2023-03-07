@@ -6,8 +6,6 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/index.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;600&display=swap" rel="stylesheet">
   <title>Photos</title>
 </head>
@@ -29,7 +27,7 @@
       </div>
     </div>
     <picture class="photos__girl-in-hat girl-in-hat">
-      <source 
+      <source
         type="image/avif" 
         srcset="images/girl-in-hat.avif,
           images/girl-in-hat2x.avif 2x">
@@ -37,10 +35,11 @@
         type="image/webp" 
         srcset="images/girl-in-hat.webp,
           images/girl-in-hat2x.webp 2x">
-      <img src="images/girl-in-hat.jpg" 
+      <img
+        class="girl-in-hat__image"
+        src="images/girl-in-hat.jpg" 
         srcset="images/girl-in-hat2x.jpg 2x" 
-        alt="Девушка в шляпе"
-        >
+        alt="Девушка в шляпе">
     </picture>
     <picture class="photos__girl-with-wall girl-with-wall">
       <source 
@@ -51,7 +50,9 @@
         type="image/webp" 
         srcset="images/girl-with-blue-wall.webp,
           images/girl-with-blue-wall2x.webp 2x">
-      <img src="images/girl-with-blue-wall.jpg" 
+      <img 
+        class="girl-with-wall__image"
+        src="images/girl-with-blue-wall.jpg" 
         srcset="images/girl-with-blue-wall2x.jpg 2x"
         alt="Девушка с синей стеной"
         >
@@ -65,7 +66,8 @@
         type="image/webp" 
         srcset="images/girl-with-bouquet.webp,
           images/girl-with-bouquet2x.webp 2x">
-      <img src="images/girl-with-bouquet.jpg" 
+      <img class="girl-with-bouquet__image" 
+        src="images/girl-with-bouquet.jpg" 
         srcset="images/girl-with-bouquet2x.jpg 2x"
         alt="Девушка с букетом в руке"
         >
@@ -84,9 +86,11 @@
         type="image/webp" 
         srcset="images/coffee-cap.webp,
           images/coffee-cap2x.webp 2x">
-      <img src="images/coffee-cap.jpg" 
-      srcset="images/coffee-cap2x.jpg 2x"
-      alt="Чашка кофе"
+      <img 
+        class="coffee-cap__image"
+        src="images/coffee-cap.jpg" 
+        srcset="images/coffee-cap2x.jpg 2x"
+        alt="Чашка кофе"
       > 
     </picture>
     <div class="photos__brown-block brown-block"></div>
@@ -99,7 +103,9 @@
         type="image/webp" 
         srcset="images/empty-room.webp,
           images/empty-room2x.webp 2x">
-      <img src="images/empty-room.jpg" 
+      <img 
+        class="empty-room__image"
+        src="images/empty-room.jpg" 
         srcset="images/empty-room2x.jpg 2x"
         alt="Пустая комната"
         >
@@ -114,7 +120,9 @@
         type="image/webp" 
         srcset="images/man.webp,
           images/man2x.webp 2x">
-      <img src="images/man.jpg" 
+      <img
+        class="man__image" 
+        src="images/man.jpg" 
         srcset="images/man2x.jpg 2x"
         alt="Мужчина">
     </picture>

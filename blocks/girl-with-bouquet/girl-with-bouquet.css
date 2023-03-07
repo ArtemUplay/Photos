@@ -1,6 +1,8 @@
-.girl-with-bouquet img {
+.girl-with-bouquet__image {
+  display: block;
   width: 100%;
   height: 100%;
+  object-fit: cover;
 }
 
 @media screen and (max-width: 1200px){
