@@ -5,22 +5,36 @@
   object-fit: cover;
 }
 
-@media screen and (max-width: 1200px){
+@media screen and (max-width: 1200px) {
   .man {
-    grid-column: 3/5;
+    grid-column: 4/5;
   }
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 992px) {
+  .man {
+    grid-column: 4/5;
+  }
+}
+
+@media screen and (max-width: 768px) {
   .man {
     grid-row: 5/6;
     grid-column: 1/2;
   }
+
+  .man__image {
+    max-width: 250px;
+  }
 }
 
-@media screen and (max-width: 320px){
+@media screen and (max-width: 320px) {
   .man {
     grid-row: 7;
     grid-column: 1;
+  }
+
+  .man__image {
+    max-width: 320px;
   }
 }
