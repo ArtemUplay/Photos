@@ -5,7 +5,7 @@
   object-fit: cover;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1280px) {
   .man {
     grid-column: 4/5;
   }
@@ -24,7 +24,7 @@
   }
 
   .man__image {
-    max-width: 250px;
+    max-width: none;
   }
 }
 

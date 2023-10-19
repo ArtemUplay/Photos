@@ -9,25 +9,22 @@
   height: 100%;
 }
 
-@media screen and (max-width: 1200px){
+@media screen and (max-width: 1280px) {
   .coffee-cap {
     grid-row: 3/4;
   }
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 768px) {
   .coffee-cap {
     grid-row: 4/5;
     grid-column: 1/2;
   }
-
-  .coffee-cap__image {
-   max-height: 300px;
-  }
 }
 
-@media screen and (max-width: 320px){
+@media screen and (max-width: 320px) {
   .coffee-cap {
+    max-height: 280px;
     grid-row: 5;
     grid-column: 1;
   }

@@ -11,11 +11,10 @@
   object-fit: cover;
 }
 
-@media screen and (max-width: 992px){
+@media screen and (max-width: 992px) {
   .girl-with-wall {
     grid-row: 4/5;
     grid-column: 1/2;
-
   }
 
   .girl-with-wall__image {
@@ -23,17 +22,16 @@
   }
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 768px) {
   .girl-with-wall {
     grid-row: 6/7;
     grid-column: 2/3;
   }
 }
 
-@media screen and (max-width: 320px){
+@media screen and (max-width: 320px) {
   .girl-with-wall {
     grid-row: 9;
     grid-column: 1;
   }
 }
-

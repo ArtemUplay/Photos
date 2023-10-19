@@ -1,27 +1,27 @@
 .red-block {
-  background-color: #A61C1C;
+  background-color: #a61c1c;
   grid-column: 5/6;
   grid-row: 2;
   min-height: 185px;
   min-width: 200px;
 }
 
-
-@media screen and (max-width: 1200px){
+@media screen and (max-width: 1280px) {
   .red-block {
     grid-column: 2/4;
     grid-row: 4/5;
   }
 }
 
-@media screen and (max-width: 992px){
+@media screen and (max-width: 992px) {
   .red-block {
+    min-width: none;
     grid-column: 1/4;
     grid-row: 5/6;
   }
 }
 
-@media screen and (max-width: 320px){
+@media screen and (max-width: 320px) {
   .red-block {
     grid-column: 1;
     grid-row: 8;

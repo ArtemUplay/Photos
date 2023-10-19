@@ -5,26 +5,26 @@
   object-fit: cover;
 }
 
-@media screen and (max-width: 1200px){
+@media screen and (max-width: 1280px) {
   .girl-with-bouquet {
     grid-column: 1/2;
   }
 }
 
-@media screen and (max-width: 992px){
+@media screen and (max-width: 992px) {
   .girl-with-bouquet {
     grid-column: 3/5;
   }
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 768px) {
   .girl-with-bouquet {
     grid-column: 2/3;
     grid-row: 3/4;
   }
 }
 
-@media screen and (max-width: 320px){
+@media screen and (max-width: 320px) {
   .girl-with-bouquet {
     grid-column: 1;
     grid-row: 4;
